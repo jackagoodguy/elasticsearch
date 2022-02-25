@@ -1,3 +1,14 @@
+#操作备注：
+使用elasticsearch head插件创建索引、类型、文档；
+
+get-together/group/1?pretty -d
+{
+"name":"Elasticsearch Denver",
+"organizer":"Lee"
+}
+
+
+
 # 简介
 
 Elasticsearch 在开源搜索引擎中基本处于垄断地位,也成为Java程序员的必备技能之一。
