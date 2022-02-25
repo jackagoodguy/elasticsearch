@@ -2,7 +2,7 @@
 使用elasticsearch head插件创建索引、类型、文档：
 点击“复合查询”，界面内输入如下内容，提交请求。
 
-get-together/group/1?pretty -d
+get-together/group/1?pretty
 {
 "name":"Elasticsearch Denver",
 "organizer":"Lee"
