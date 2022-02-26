@@ -21,6 +21,9 @@ unzip elasticsearch-analysis-ik-7.2.0.zip
 
 参考网址：https://www.cnblogs.com/gwyy/p/12205257.html
 
+#项目特点：
+该项目只提供了文件搜索内容的展示，没有整个文件内容的展示。
+
 
 
 # 简介
