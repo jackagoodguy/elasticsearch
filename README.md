@@ -1,4 +1,4 @@
-#操作备注：
+#1、操作备注：
 使用elasticsearch head插件创建索引、类型、文档：
 点击“复合查询”，界面内输入如下内容，提交请求。
 
@@ -7,6 +7,19 @@ get-together/group/1?pretty
 "name":"Elasticsearch Denver",
 "organizer":"Lee"
 }
+
+#安装中文分词器，不安装项目执行报错：
+1、去github 下载对应的分词插件
+https://github.com/medcl/elasticsearch-analysis-ik/releases
+根据不同版本下载不同的分词插件
+
+2、到es的plugins 目录创建文件夹
+cd your-es-root/plugins/ && mkdir ik
+
+3、解压ik分词插件到ik文件夹
+unzip elasticsearch-analysis-ik-7.2.0.zip
+
+参考网址：https://www.cnblogs.com/gwyy/p/12205257.html
 
 
 
