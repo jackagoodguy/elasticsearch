@@ -16,7 +16,7 @@ https://github.com/medcl/elasticsearch-analysis-ik/releases
 2、到es的plugins 目录创建文件夹
 cd your-es-root/plugins/ && mkdir ik
 
-3、解压ik分词插件到ik文件夹
+3、解压ik分词插件到ik文件夹，注意ik文件夹下直接是解压后多个文件夹的具体内容，不要包含在一个父亲文件夹内
 unzip elasticsearch-analysis-ik-7.2.0.zip
 
 参考网址：https://www.cnblogs.com/gwyy/p/12205257.html
