@@ -1,4 +1,5 @@
-#1、操作备注：
+# 1、操作备注：
+elasticsearch head插件使用，chrome浏览器，地址栏右侧，扩展程序图标，选择elasticsearch head插件，即可打开插件界面，输入es的链接地址。
 使用elasticsearch head插件创建索引、类型、文档：
 点击“复合查询”，界面内输入如下内容，提交请求。
 
@@ -8,7 +9,7 @@ get-together/group/1?pretty
 "organizer":"Lee"
 }
 
-#安装中文分词器，不安装项目执行报错：
+# 安装中文分词器，不安装项目执行报错：
 1、去github 下载对应的分词插件
 https://github.com/medcl/elasticsearch-analysis-ik/releases
 根据不同版本下载不同的分词插件
